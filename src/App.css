@@ -7,9 +7,14 @@ body {
   background-color: rgb(1, 31, 27);
 }
 .container {
-  background-color: rgba(0, 0, 0, 0.747);
-  border-radius: 1em;
-  padding: 2em;
+  /* From https://css.glass */
+  padding: 1.5em;
+  background: rgba(0, 41, 33, 0.69);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 88, 59, 0.295);
+  backdrop-filter: blur(7.3px);
+  -webkit-backdrop-filter: blur(7.3px);
+  border: 1px solid rgba(0, 41, 33, 0.3);
 }
 .header{
   font-family: 'Poppins', sans-serif;
@@ -19,4 +24,18 @@ body {
 .Balance-box{
   color: rgba(0, 179, 155, 0.932);
   font-family: 'Poppins', sans-serif;
+}
+.Bmove-container{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  gap: 2em;
+}
+#Gnum1{
+  color: rgba(0, 204, 109, 0.836);
+  text-align: center;
+}
+#Gnum2{
+  color: brown;
+  text-align: center;
 }
