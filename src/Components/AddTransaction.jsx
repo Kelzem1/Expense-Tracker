@@ -4,7 +4,7 @@ export const AddTransaction = () =>{
     const [text, setText] = useState('')
     const [amount, setAmount] = useState(0)
     return(
-        <>
+        <div className="addnew">
         <h3>Add new transaction</h3>
         <form>
             <div className="form-control">
@@ -24,7 +24,7 @@ export const AddTransaction = () =>{
             <button className="btn">Add transaction</button>
         </form>
 
-        </>
+        </div>
       
     )
 }

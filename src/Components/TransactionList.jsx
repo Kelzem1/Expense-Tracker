@@ -5,7 +5,7 @@ export const TransactionList = () =>{
     const context = useContext(GlobalContext)
     console.log(context)
     return(
-    <>
+    <div className="history">
         <h3>History</h3>
         <ul className="list">
             <li>
@@ -14,6 +14,6 @@ export const TransactionList = () =>{
                 <button className="delete-btn">X</button>
             </li>
         </ul>
-    </>
+    </div>
     )
 }
