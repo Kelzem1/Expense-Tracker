@@ -5,16 +5,22 @@ import { Bmove } from './Components/Bmove'
 import { Header } from './Components/Header'
 import { TransactionList } from './Components/TransactionList'
 
+import { GlobalProvider } from './Context/GlobalState'
+
 function App() {
 
   return (
-  <div className='container'>
+  <GlobalProvider>
+  
+    <div className='container'>
     <Header />
     <Balance />
     <Bmove />
     <TransactionList />
     <AddTransaction />
-  </div>
+    </div>
+  
+  </GlobalProvider>
   )
 }
 
