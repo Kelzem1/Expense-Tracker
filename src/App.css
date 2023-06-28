@@ -1,12 +1,12 @@
 body {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: auto;
   background-color: rgb(1, 31, 27);
 }
-
 .container {
   /* From https://css.glass */
   padding: 16px;
@@ -38,30 +38,42 @@ body {
 }
 .Bmove-container{
   display: flex;
-  color: rgba(0, 179, 155, 0.932);
+  color: rgb(38, 194, 168);
   font-family: 'Poppins', sans-serif;
   justify-content: center;
   gap: 8em;
+  padding: 0.4em;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(123, 235, 235, 0.226);
   margin: auto;
-  background-color: rgba(164, 222, 240, 0.205);
+  background-color: rgba(0, 179, 155, 0.212);
   backdrop-filter:blur(200px);
+}
+.Bmove-container h2{
+  font-size: 1.3em;
+  margin: auto;
+  padding: 0.9vh;
 }
 .addm{
   color: rgba(65, 221, 148, 0.836);
   text-align: center;
   font-size: larger;
   font-weight: bold;
+  margin: auto;
 }
 .minm{
   color: rgba(189, 61, 61, 0.904);
   text-align: center;
   font-size: larger;
   font-weight: bold;
+  margin: auto;
 }
 .history{
+  box-shadow: 0 2px 12px rgba(123, 235, 235, 0.226);
   font-family: 'Poppins', sans-serif;
   justify-content: center;
-  background-color: rgba(164, 222, 240, 0.205);
+  border-radius: 16px;
+  background-color: rgba(0, 179, 155, 0.212);
   backdrop-filter:blur(200px);
 }
 .list{
@@ -77,13 +89,18 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
-  color: rgb(158, 192, 189);
+  color: rgb(38, 194, 168);
   text-justify: center;
 }
+.money .minus{
+  color: black;
+}
 .addnew{
+  box-shadow: 0 2px 12px rgba(123, 235, 235, 0.226);
   font-family: 'Poppins', sans-serif;
-  color:rgba(0, 179, 155, 0.932);
-  background-color: rgba(41, 87, 79, 0.205);
+  color:rgb(38, 194, 168);
+  background-color: rgba(0, 179, 155, 0.212);
   padding: 1em;
+  border-radius: 0 0 10px 16px;
   text-align: center;
 }
