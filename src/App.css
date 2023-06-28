@@ -9,7 +9,7 @@ body {
 
 .container {
   /* From https://css.glass */
-  padding: 1.5em;
+  padding: 16px;
   background-color: rgba(2, 39, 33, 0.692);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 88, 59, 0.295);
@@ -17,15 +17,20 @@ body {
   -webkit-backdrop-filter: blur(7.3px);
   border: 1px solid rgba(0, 41, 33, 0.3);
 }
-.header{
+.header h1{
   font-family: 'Poppins', sans-serif;
-  font-size:x-large;
+  font-size: 3em;
+  display: flex;
+  margin: auto;
+  justify-content: center;
   color: rgba(0, 179, 155, 0.932);
   text-align: center;
+  padding-bottom: 10px;
 }
 .Balance-box{
   color: rgba(0, 179, 155, 0.932);
   font-family: 'Poppins', sans-serif;
+  border-top: solid rgba(0, 179, 155, 0.932);
 }
 .Balance-box p{
   font-weight: bolder;
@@ -33,20 +38,22 @@ body {
 }
 .Bmove-container{
   display: flex;
+  color: rgba(0, 179, 155, 0.932);
   font-family: 'Poppins', sans-serif;
   justify-content: center;
-  gap: 2em;
-  background-color: rgba(41, 87, 79, 0.205);
-  backdrop-filter:blur(2px);
+  gap: 8em;
+  margin: auto;
+  background-color: rgba(164, 222, 240, 0.205);
+  backdrop-filter:blur(200px);
 }
 .addm{
-  color: rgba(0, 204, 109, 0.836);
+  color: rgba(65, 221, 148, 0.836);
   text-align: center;
   font-size: larger;
   font-weight: bold;
 }
 .minm{
-  color: brown;
+  color: rgba(189, 61, 61, 0.904);
   text-align: center;
   font-size: larger;
   font-weight: bold;
@@ -54,39 +61,29 @@ body {
 .history{
   font-family: 'Poppins', sans-serif;
   justify-content: center;
-  gap: 2em;
-  background-color: rgba(41, 87, 79, 0.205);
-  backdrop-filter:blur(2px);
-}
-.history h3{
-  color:rgba(0, 179, 155, 0.932);
-  text-align: center;
-  padding-top: 0.5em;
-  font-size: 22px;
+  background-color: rgba(164, 222, 240, 0.205);
+  backdrop-filter:blur(200px);
 }
 .list{
   text-align: center;
   text-decoration: none;
   list-style: none;
-  background-color: rgba(179, 46, 12, 0.486);
-  border: solid 1px rgba(0, 0, 0, 0.226);
-  border-radius: 5px;
-  margin: 2em;
-  height: 40px;
-  padding: 0.2rem;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
 .list li{
-  margin: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  color: whitesmoke;
+  text-align: center;
+  color: rgb(158, 192, 189);
   text-justify: center;
-}
-.list li span{
 }
 .addnew{
   font-family: 'Poppins', sans-serif;
   color:rgba(0, 179, 155, 0.932);
   background-color: rgba(41, 87, 79, 0.205);
   padding: 1em;
+  text-align: center;
 }
