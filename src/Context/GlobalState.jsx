@@ -6,7 +6,8 @@ const initialState = {
     transactions: [
         { id: 1, text: 'Phone' , amount: -12},
         { id: 2, text: 'Food', amount: -50},
-        { id: 3, text: 'Paycheck', amount: 400}
+        { id: 3, text: 'Paycheck', amount: 400},
+        { id:4, text:'Loteria', amount: 1000 }
     ]
 }
 

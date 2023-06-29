@@ -96,6 +96,7 @@ body {
   color: black;
 }
 .addnew{
+  display: block;
   box-shadow: 0 2px 12px rgba(123, 235, 235, 0.226);
   font-family: 'Poppins', sans-serif;
   color:rgb(38, 194, 168);
