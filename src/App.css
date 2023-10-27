@@ -6,6 +6,7 @@
 body {
   display: flex;
   width: 100%;
+  padding: auto;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -15,7 +16,8 @@ body {
 .container {
   /* From https://css.glass */
   padding: 16px;
-  background-color: rgba(2, 39, 33, 0.692);
+  height: 70%;
+  background-color: rgba(46, 46, 46, 0.453);
   border-radius: 2px;
   box-shadow: 0 4px 30px rgba(14, 18, 17, 0.295);
   backdrop-filter: blur(10px);
@@ -28,14 +30,14 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
-  color: rgba(0, 179, 155, 0.932);
+  color: rgba(254, 254, 254, 0.932);
   text-align: center;
   padding-bottom: 10px;
 }
 .Balance-box{
-  color: rgba(0, 179, 155, 0.932);
+  color: rgba(255, 255, 255, 0.932);
   font-family: 'Poppins', sans-serif;
-  border-top: solid rgba(0, 179, 155, 0.932);
+  border-top: solid rgba(142, 142, 142, 0.932);
 }
 .Balance-box p{
   font-weight: bolder;
@@ -43,13 +45,13 @@ body {
 }
 .Bmove-container{
   display: flex;
-  color: rgb(38, 194, 168);
+  color: rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
   justify-content: center;
   gap: 8em;
   padding: 0.4em;
   border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(123, 235, 235, 0.226);
+  box-shadow: 0 2px 12px rgba(25, 25, 25, 0.226);
   margin: auto;
   background-color: rgba(0, 179, 155, 0.212);
   backdrop-filter:blur(200px);
@@ -60,7 +62,7 @@ body {
   padding: 0.9vh;
 }
 .addm{
-  color: rgba(65, 221, 148, 0.836);
+  color: rgba(7, 207, 114, 0.836);
   text-align: center;
   font-size: larger;
   font-weight: bold;
@@ -74,12 +76,12 @@ body {
   margin: auto;
 }
 .history{
-  box-shadow: 0 2px 12px rgba(123, 235, 235, 0.226);
+  box-shadow: 0 2px 12px rgba(9, 9, 9, 0.226);
   font-family: 'Poppins', sans-serif;
   justify-content: center;
-  border-radius: 16px;
-  background-color: rgba(0, 179, 155, 0.212);
-  backdrop-filter:blur(200px);
+  border-radius: 1px;
+  background-color: rgba(255, 255, 255, 0.212);
+  backdrop-filter:blur(100px);
 }
 .list{
   text-align: center;
@@ -104,10 +106,10 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.226);
+  box-shadow: 0 2px 4px rgba(36, 36, 36, 0.226);
   font-family: 'Poppins', sans-serif;
-  color:rgb(38, 194, 168);
-  background-color: rgba(106, 87, 108, 0.72);
+  color:rgb(255, 255, 255);
+  background-color: rgba(58, 58, 58, 0.285);
   padding: 1em;
   border-radius: 0 0 10px 16px;
 }
