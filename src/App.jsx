@@ -15,9 +15,10 @@ function App() {
     <div className='container'>
     <Header />
     <Balance />
+    <AddTransaction />
     <Bmove />
     <TransactionList />
-    <AddTransaction />
+    
     </div>
   
   </GlobalProvider>
